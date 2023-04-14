@@ -41,6 +41,8 @@ INSTALLED_APPS = [
 
    #local apps
     'playground.apps.PlaygroundConfig',
+    'store.apps.StoreConfig',
+    'tags.apps.TagsConfig',
 ]
 
 MIDDLEWARE = [

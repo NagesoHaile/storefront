@@ -17,7 +17,7 @@ class Product(models.Model):
     inventor = models.IntegerField()
     updated_at = models.DateTimeField(auto_now=True)
     collection = models.ForeignKey(Collection,on_delete=models.PROTECT)
-    production = models.ManyToManyField(Promotion)
+    promotions = models.ManyToManyField(Promotion)
 
 
 
